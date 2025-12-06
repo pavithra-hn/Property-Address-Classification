@@ -1,0 +1,21 @@
+Validation Accuracy: 0.8672
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+commercial unit       0.93      0.93      0.93       290
+           flat       0.96      0.89      0.92       970
+    houseorplot       0.90      0.84      0.87       802
+     landparcel       0.72      0.85      0.78       260
+         others       0.68      0.83      0.75       359
+
+       accuracy                           0.87      2681
+      macro avg       0.84      0.87      0.85      2681
+   weighted avg       0.88      0.87      0.87      2681
+
+Confusion Matrix:
+[[270   4   5   3   8]
+ [ 10 866  28   5  61]
+ [  3  14 670  53  62]
+ [  0   2  27 220  11]
+ [  6  17  14  23 299]]
